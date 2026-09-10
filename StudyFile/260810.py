@@ -7,7 +7,7 @@
 # print(fixed)
 
 
-files = "StudyFile/Data/11_diecasting_series.csv"
+#   files = "StudyFile/Data/11_diecasting_series.csv"
 # data = []
 # with open(files, "r", encoding="utf-8") as f:
 #     reader = csv.reader(f)
@@ -75,3 +75,19 @@ files = "StudyFile/Data/11_diecasting_series.csv"
 # print(cyc[top].astype(int))
 
 import pandas as pd
+
+file = "StudyFile/Data/12_metro_compressor.csv"
+file_semi = "StudyFile/Data/12_metro_compressor_semicolon.csv"
+
+df = pd.read_csv("StudyFile/Data/12_metro_compressor.csv")
+df.head()
+
+print(df.shape)
+print(df.columns)
+print(df.columns.tolist())
+
+print(df["오일온도"].values)
+
+motor = df["모터전류"].values
+
+print(f"모터 최소 전류 ")

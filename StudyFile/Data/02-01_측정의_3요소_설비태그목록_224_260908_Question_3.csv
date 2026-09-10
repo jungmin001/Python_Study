@@ -1,0 +1,17 @@
+tag,unit,sampling_sec,range_min,range_max,resolution,install_location
+MTR01_VIB_RMS_H,mm/s,60,0,25,0.1,구동측 베어링 하우징 수평
+MTR01_VIB_RMS_V,mm/s,60,0,25,0.1,구동측 베어링 하우징 수직
+MTR01_VIB_RMS_A,mm/s,60,0,25,0.1,구동측 베어링 하우징 축방향
+MTR01_VIB_ACC,g,60,0,10,0.01,비구동측 베어링 하우징
+MTR01_CURRENT,A,60,0,120,0.5,모터 제어반 전류 변성기
+MTR01_VOLT,V,60,0,480,1,모터 제어반 전압 단자
+MTR01_POWER,kW,60,0,75,0.1,계산값 - 전압×전류 기반
+MTR01_TEMP,degC,60,0,180,0.5,고정자 권선 매입 측온저항체
+MTR01_RPM,rpm,60,0,1800,1,축단 회전수 센서
+HYD01_PRESS_IN,bar,60,0,210,1,펌프 토출 배관
+HYD01_PRESS_OUT,bar,60,0,210,1,필터 후단 배관
+HYD01_DP_FILTER,bar,60,0,210,1,계산값 - 공급압력 - 후단압력
+HYD01_FLOW,L/min,60,0,200,1,펌프 토출 배관 유량계
+HYD01_OILTEMP,degC,300,0,120,0.5,유압 탱크 내부
+FUR01_TEMP_Z1,degC,300,0,1300,0.5,1존 천장 열전대
+FUR01_TEMP_Z2,degC,300,0,1300,0.5,2존 천장 열전대
