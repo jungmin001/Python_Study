@@ -175,9 +175,9 @@ import seaborn as sns
 
 sns.set_theme(style="whitegrid")
 
-file_location = "StudyFile/Data/20_cmapss_fd001_sample_65_260831.csv"
-file_location2 = "StudyFile/Data/21_cmapss_fd001_sample_70_260901_2.csv"
-file_location3 = "StudyFile/Data/21_engine1_timestamp_sample_70_260901_3.csv"
+file_location = "Data/20_cmapss_fd001_sample_65_260831.csv"
+file_location2 = "Data/21_cmapss_fd001_sample_70_260901_2.csv"
+file_location3 = "Data/21_engine1_timestamp_sample_70_260901_3.csv"
 
 df = pd.read_csv(file_location)
 

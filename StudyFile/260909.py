@@ -107,3 +107,13 @@ print(" ① 물리량 : 태그 접미어(VIB_RMS_H 등) + unit 컬럼. install_l
 print(" ② 위치   : install_location 컬럼 그대로")
 print(" ③ 주기   : sampling_sec 컬럼(정의) vs 측정샘플에서 값이 바뀌는 간격(실측)")
 print("            → 온도류(OILTEMP·FUR_TEMP)만 300s, 나머지는 60s. 샘플 보유 5개 컬럼 모두 정의=실측 일치")
+
+def attack(damage, target):
+    """
+    대상에게 데미지를 적용합니다.
+
+    :param damage: 적용할 데미지 값
+    :param target: 공격 대상
+    :return: 처리된 데미지 값
+    """
+    return damage
